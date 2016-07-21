@@ -40,3 +40,4 @@ console.log(''); displays in the console.
 clear() clears the console
 
 
+
