@@ -1,4 +1,4 @@
-boolean logic 
+//boolean logic 
 everything starts with a true or false
 
 > greater than
