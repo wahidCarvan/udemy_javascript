@@ -34,26 +34,36 @@
 // writing forloops
 // print all numbers between -10 and 19
 
-
-var count =-10;
-for(count =-10; count <=19; count++){
+for(var count =-10; count <=19; count++){
   console.log(count);
 }
 // print all even numbers between 10 and 40
 
-var i = 10;
-for(i =10; i <=40; i+=2){
+
+for(var i =10; i <=40; i+=2){
   console.log(i);
 }
-// print all odd numbers between 300 and 333
-var i = 300;
-for(i =300; i<= 333; i+=2){
+// another better way of doing it.
+for( var i =10; i <=40; i +=1){ if(i % 2===0){
+
   console.log(i);
+}
+  }
+// print all odd numbers between 300 and 333
+
+for(var i =300; i<= 333; i++){
+  if(i %2 !===0){
+     console.log(i);
+  }
+ 
 }
 
 // print all numbers divisible by 5 and 3 between the number 5 and 50
 
-var i =5;
-for(i =5; i<=50; i){
-  console.log(i);
+
+for(var i =5; i<=50; i++){
+  if(i % 5 ===0 && i % 3===0){
+    console.log(i);
+  }
+  
 }
