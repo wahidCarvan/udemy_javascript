@@ -10,7 +10,8 @@ var guess = Number(stringGuess);
 if(guess=== secretNumber){
   alert('your guess is correct');
 }
-else if (guess< secretNumber){ alert('your guess is too high!');
+else if (guess< secretNumber){
+ alert('your guess is too high!');
 } else (guess>secretNumber) 
   alert('your guess is to low, guess again.');
 

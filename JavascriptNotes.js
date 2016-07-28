@@ -4,7 +4,7 @@ JavaScript primitves
 numbers- can be whole numbers, decimals, and negative numbers.
 %modulu returns the remainder of a number.
 strings- are wrapped in quotes
-booleans- are true or fals
+booleans- are true or false
 null-
 undefined-
 
@@ -13,7 +13,7 @@ the.length returns 2
 count starts at 0
 
 the[2]; returns e
-\\ adds a backsplash to a sentece
+\\ adds a backslash to a sentence
 single backslash is an escape key
 use a backslash to escape quotes in strings
 variables are containers that store data

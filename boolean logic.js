@@ -20,7 +20,7 @@ y > 9 || x ===5 returns true
 or requires one side to be true to return true
 not becomes true or false 
 !(x===y)
-every value is javascript is truthy or falsey
+every value is javascript is either truthy or falsey
 conditionals
 making decsions with code
 conditional key words

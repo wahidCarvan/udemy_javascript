@@ -6,7 +6,7 @@ var answer = prompt('are we there yet?');
 if(answer === 'yes'){
   alert("yes, we made it");
 
-}else{
+} else{
   var answer = prompt('are we there yet?')
 }
 // using a while loop

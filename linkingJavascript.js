@@ -4,7 +4,7 @@
 // js stalker exercise
 
 // variables strings prompts and console.log
-// Ask user for full anem, age and print out their answers in a full sentence.
+// Ask user for full name age and print out their answers in a full sentence.
 
 var fullName = prompt(" What is your full name");
 
