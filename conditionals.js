@@ -17,6 +17,7 @@
           console.log("you may enter and drink")
         }
        //if age is negative
+       var age = prompt("what is your age?")
        if (age < 0){
         console.log("come back when you are a even number.");
       }

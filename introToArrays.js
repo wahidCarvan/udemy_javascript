@@ -23,7 +23,7 @@ var friends = new Array()
 arrays can hold any type of data.
 arrays have a length property
 var nums =[ 45, 37, 89, 24];
-length only counts thr numer of items in an arrays
+length only counts the numer of items in an arrays
 nums.length // returns 4
 var name = 'rusty'
 name.length//returns 5 since there are letters in there

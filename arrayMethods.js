@@ -5,7 +5,7 @@ indexOf
 slice
 var colors = ['red','yellow','blue','purple','orange'];
 // adding to the above array
-// use pop to add to the end of the array
+// use push to add to the end of the array
 // pop removes the last item in the array
 //adds black to the end of the array
 colors.push('black')
