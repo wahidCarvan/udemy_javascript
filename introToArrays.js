@@ -18,7 +18,7 @@ var friends =['charlie','liz','david','mattias'];
 friends[4] = "alex";
 // defining  empty arrays arrays
 var friends =[];
-// uncommon way of fdoing it
+// uncommon way of doing it
 var friends = new Array()
 arrays can hold any type of data.
 arrays have a length property
