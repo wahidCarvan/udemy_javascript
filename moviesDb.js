@@ -1,22 +1,26 @@
-https://www.udemy.com/the-web-developer-bootcamp/learn/v4/t/lecture/3861426
-alert('testing');
+
 // movies database 3- 4 movies
 var movies = [{
     title: 'juice',
     hasWatched: true,
-    rating: 5,
+    rating: 5
 }, {
     title: 'topGun',
     hasWatched: false,
-    rating: 4.5,
+    rating: 4.5
+}, {
+    title:'titanic',
+    hasWatched:true,
+    rating:5
 }]
 movies.forEach(function(movie) {
-    var result = ' You have'
+    var result = 'You have '
     if (movie.hasWatched) {
-        result += 'watched';
+        result += 'watched ';
     } else {
-        result += 'not seen';
+        result += 'not seen ';
     }
-
+    result += "\""+movie.title + "\" -";
+    result += movie.rating +"stars ";
     console.log()
 });
