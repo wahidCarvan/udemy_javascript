@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulating text and content</title>
+</head>
+<body>
+<h1>Dom Manipulation of text and content</h1>
+<p>This is an <strong>awesome</strong> paragraph</p>
+<ul>
+  <li>roses</li>
+  <li>tulips</li>
+  <li>flowers</li>
+</ul>
+<script type="text/javascript">
+  // selecting the p tag
+  var tag = document.getElementsByTagName('p')[0];
+  // retrieves the textContent in the p tag
+  tag.textContent // this is an awesome paragraph
+  // alter the textContent
+  // removes the strong tag
+  tag.textContent = 'blah blah blah and some more blah lol';
+  // keeping the strong tag there
+var tag = document.getElementsByTagName('p')[0];
+// keeps the strong tag there
+tag.innerHTML
+
+
+
+
+
+
+
+
+
+  var ul = document.querySelector('ul');
+  ul.textContent
+  // completely replaces all the lis in the ul
+  ul.textContent='i see you'
+
+
+var ul = document.querySelector('ul');
+  ul.textContent
+  // completely replaces all the lis in the ul
+  ul.innerHTML='i see you'
+  document.querySelector('h1').textContent ='end of lesson';
+</script>
+</body>
+</html>
