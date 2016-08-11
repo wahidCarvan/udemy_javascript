@@ -1,6 +1,6 @@
 // intro the DOM
 // where js meets html and css
-// THE dom documnet object model
+// THE dom document object model
 // the dom is the interface between html , css and javascript
 // the browser turns every html tag into a javascript object that we can manipulate
 // everyting is stored inside of the document object
