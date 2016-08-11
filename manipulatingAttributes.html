@@ -5,10 +5,39 @@
 </head>
 <body>
 <h1>manipulating attributes</h1>
-<a href="www.google.com">Google</a>
-<img src="logo.png">
+<a href="http://www.google.com">Google</a>
+<!-- first image -->
+<img src="http://logos.textgiraffe.com/logos/logo-name/Wahid-designstyle-kiddo-m.png">
+<!-- image 2 -->
+<img src="http://2.bp.blogspot.com/-pATX0YgNSFs/VP-82AQKcuI/AAAAAAAALSU/Vet9e7Qsjjw/s1600/Cat-hd-wallpapers.jpg">
+<!-- use getAttribute() and setAttribute() to read and write attributes like src or href -->
 <script type="text/javascript">
-  
+  // var link = document.querySelector("a");
+  // // get attribute gets the website
+  // link.getAttribute('href');
+  // // change href attribute
+  // // takes 2 arguments the site and the new site it needs to be changed to.
+  // link.setAttribute('href', www.bing.com);
+  // // to change the image src
+  // var img = document.querySelector('img');
+  // img.setAttribute('src','corgi.png');
+  // selects the first image
+var img1 = document.getElementsByTagName('img')[0]
+// calls the image
+img1
+// getting the source of the image the website where it came from
+img1.getAttribute('src')
+// changing the image with a new image needs 2 arguments first is the image src and second is the new image
+img1.setAttribute('src','http://i3.mirror.co.uk/incoming/article6745694.ece/ALTERNATES/s615b/Ginger-tabby-cat.jpg')
+
+// changing the second image on the page
+var img2 = document.getElementsByTagName('img')[1]
+img2.getAttribute('src')
+img2.setAttribute('src','http://i3.mirror.co.uk/incoming/article6745694.ece/ALTERNATES/s615b/Ginger-tabby-cat.jpg')
+//changin a links href
+// selecting the link
+var a = document.querySelector('a')
+a.setAttribute('href','http://www.cats.com')
 </script>
 </body>
 </html>
