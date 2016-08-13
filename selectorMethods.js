@@ -34,5 +34,5 @@ var tag = document.querySelector(".bolded")
 var h1 = document.querySelector("h1');        
    // null means not found
 
-// selects all bolded classes
+// selects all classes with bolded
    var bolded = document.querySelectorAll(".bolded")
