@@ -15,7 +15,7 @@ h1.style.color='red';
 var body = document.querySelector("body");
 // sets the page to default white
 var isBlue = false;
-// chnaging the color every 3 seconds
+// changing the color every 3 seconds
 setInterval(function(){
     if (isBlue){
         body.style.background='white';
