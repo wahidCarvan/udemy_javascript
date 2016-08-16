@@ -5,9 +5,9 @@
 var cats =['art','tom','steve'];
 // returns tom
 cats[1];
-// adding the end of the array
+// adding to the end of the array
 cats.push('dan');
-//changing the value
+//changing the value changes tom to lucy
 cats[1] = 'lucy'
 // object
 var cat ={

@@ -7,10 +7,8 @@ for(var i = 0; i <colors.length; i++){
   console.log(colors[i]);
 }
 // using a for each to loop through the array
-
-colors.forEach(function(
 // placeHolder can be any name
-  placeHolder){
+colors.forEach(function(placeHolder){
 alert(placeHolder);
 });
 // using a while loop to loop through the colors array

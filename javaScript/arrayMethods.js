@@ -27,11 +27,11 @@ friends.indexOf('liz');
 friends.indexOf('wahid');
 
 // slice()used to copy parts of an array
-var fruits = ['banan','orange', 'lemon','apple','mango'];
+var fruits = ['bananna','orange', 'lemon','apple','mango'];
 // use slice to copy the 2nd and 3rd fruits
-// specify index where the new array starts(1) and (3)
+// specify index where the new array starts(1) and (3) ends
 // it does not alter the original array
-// takes to arguments starting point and ending point but it does not include the item we stopped at.
+// takes two arguments starting point and ending point but it does not include the item we stopped at.
 var citrus = fruits.slice(1,3);
 
 // slice() can also be used to copy an entire array
