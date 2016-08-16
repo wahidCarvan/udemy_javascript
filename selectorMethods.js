@@ -24,7 +24,7 @@ var tags = document.getElementsByTagName('li');
 // selects only the first item in the body
 var tags = document.getElementsByTagName('body')[0];
 
-// usign query selector
+// using query selector
 //# used for ids . used for classes
 var tag = document.querySelector("#highlight")
 // returns only the first selector
