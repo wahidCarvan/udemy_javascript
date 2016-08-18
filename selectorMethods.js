@@ -31,8 +31,7 @@ var tag = document.querySelector("#highlight")
 var tag = document.querySelector(".bolded")
 //can be used for html elements as well
 // var  can be anyname
-var h1 = document.querySelector("h1');        
+var h1 = document.querySelector("h1');                        
    // null means not found
-
 // selects all classes with bolded
    var bolded = document.querySelectorAll(".bolded")

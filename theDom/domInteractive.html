@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Making the dom interactive</title>
+</head>
+<body>
+<h1>Testing the h1</h1>
+<button>Click ME!</button>
+<p>No one has clicked me</p>
+<ol>
+  <ul>List 1</ul>
+  <ul>List 2</ul>
+  <ul>List 3</ul>
+  <ul>List 4</ul>
+</ol>
+
+
+
+
+
+
+
+
+<!-- writing javascript inside of html file -->
+<script type="text/javascript">
+
+
+
+// making a button listen when it is clicked
+// the syntax
+// element.addEventListener(type, functionToCall);
+
+var button = document.querySelector("button");
+var paragraph = document.querySelector('p');
+//setting up event listeners
+button.addEventListener('click', function(){
+  paragraph.textContent='someone has clicked me!'
+});
+
+// adding a click listener to the h1
+ var h1 =document.querySelector("h1"); 
+h1.addEventListener('click',function(){
+  alert("h1 was clicked");
+  h1.style.background ='orange';
+
+});
+
+// selecting the ul
+// document.querySelector('li').addEventListener('click', function(){
+// console.log('you clicked me');
+// });
+
+// selecting individual lis
+var lis = document.querySelectorAll('li');
+//looping through the lis
+for(var i=0; i <lis.length; i++){
+  lis[i].addEventListener('click',function(){
+    // this refers to the element that is being used
+    this.style.color = "pink";
+  });
+}
+// naming the function
+var button =document.querySelector("button");
+var paragraph = document.querySelector('p');
+button.addEventListener("click", changeText);
+function changText(){
+  paragraph.textContent = 'someone clicked the button';
+}
+</script>
+</body>
+</html>
